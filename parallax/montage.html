@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <title>Montage photo</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />   
+  <script src="js/montage.js"></script> 
+  <script>
+    var images = [
+      new Picture("monique1", 0, 0, 0, 0),
+      new Picture("monique2", -97, 40, 0.02, 0.2),
+      new Picture("monique3", -150, -40, 0.02, 0.2),
+      new Picture("monique4", 25, 80, 0.02, 0.2),
+      new Picture("monique5", 50, 130, 0.02, 0.2),
+      new Picture("monique6", 100, 150, 0.02, 0.2)
+    ];    
+  </script>
+</head>
+<body data-stellar-background-ratio="0.2">                                          
+                    
+<div id="scene">
+  <div id="contenu">
+    <h1>Bon anniversaire !!</h1>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="js/jquery.stellar.js"></script>
+  <script>
+    init(images); 
+  </script>
+</div>
+</body>
+</html>

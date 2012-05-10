@@ -1,0 +1,29 @@
+body {
+  background: url(../img/montagne-lac-glace.jpg) no-repeat center;
+  width: 1422px;
+  height: 1144px;
+}
+
+h1 {
+  color: white;
+  font: 72px/72px helvetica, arial, sans-serif;
+  padding: 40px 80px;
+}             
+
+.pictures {
+  width: 1200px;
+  height: 800px;           
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}  
+
+.monique1 {
+  background: url(../img/monique1.png) no-repeat center;
+}
+
+.monique2 {
+  background: url(../img/monique2.png) no-repeat center;
+  top: -97px;
+  left: 40px;
+}
