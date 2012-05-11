@@ -8,14 +8,19 @@ h1 {
   color: white;
   font: 72px/72px helvetica, arial, sans-serif;
   padding: 40px 80px;
+}
+
+#pictures {
 }             
 
-.pictures {
-  width: 1200px;
-  height: 800px;           
-  position: absolute;
-  top: 0px;
-  left: 0px;
+.picture { 
+  position: absolute;      
+}
+
+.picture img {
+  -moz-box-shadow: 1px 1px 12px #555;
+  -webkit-box-shadow: 1px 1px 12px #555;
+  box-shadow: 1px 1px 12px #555;
 }  
 
 .monique1 {
