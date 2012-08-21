@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8">
+<title>Texture</title>
+
+<style>
+.textured {
+	background: url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png');
+}
+.textured.blue {
+	background:
+		url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png'),
+		blue;
+}
+.textured.red {
+	background:
+		url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png'),
+		red;
+}
+.textured.green {
+	background-image:
+		url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png'),
+		-webkit-gradient(
+			linear,
+			left bottom,
+			right top,
+			color-stop(0, rgb(195,255,173)),
+			color-stop(1, rgb(29,143,0))
+	);
+	background-image:
+		url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png'),
+		-moz-linear-gradient(
+			left bottom,
+			rgb(195,255,173) 0%,
+			rgb(29,143,0) 100%
+	);
+}
+.textured.yellow {
+	background-image:
+		url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png'),
+		-webkit-gradient(
+			linear,
+			left bottom,
+			right top,
+			color-stop(0, rgb(255,248,173)),
+			color-stop(1, rgb(143,79,0))
+	);
+	background-image:
+		url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png'),
+		-moz-linear-gradient(
+			left bottom,
+			rgb(255,248,173) 0%,
+			rgb(143,79,0) 100%
+	);
+}
+.textured.lsd {
+	background-image:
+		url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png'),
+		-webkit-gradient(
+			linear,
+			left bottom,
+			right top,
+			color-stop(0, rgb(255,0,0)),
+			color-stop(0.1, rgb(255,153,0)),
+			color-stop(0.2, rgb(255,242,0)),
+			color-stop(0.3, rgb(68,255,0)),
+			color-stop(0.4, rgb(0,255,183)),
+			color-stop(0.5, rgb(0,98,255)),
+			color-stop(0.6, rgb(60,0,255)),
+			color-stop(0.7, rgb(213,0,255)),
+			color-stop(0.8, rgb(255,0,102)),
+			color-stop(0.9, rgb(0,0,0)),
+			color-stop(1, rgb(255,255,255))
+	);
+	background-image:
+		url('http://img.over-blog-kiwi.com/0/00/01/19/201204/1334685545.4222.png'),
+		-moz-linear-gradient(
+			left bottom,
+			rgb(255,0,0) 0%,
+			rgb(255,153,0) 10%,
+			rgb(255,242,0) 20%,
+			rgb(68,255,0) 30%,
+			rgb(0,255,183) 40%,
+			rgb(0,98,255) 50%,
+			rgb(60,0,255) 60%,
+			rgb(213,0,255) 70%,
+			rgb(255,0,102) 80%,
+			rgb(0,0,0) 90%,
+			rgb(255,255,255) 100%
+	);
+}
+
+#cssTextured {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssTextured li {
+  display: block;
+  float: left;
+  width: 49%;
+  line-height: 100px;
+  margin-left: 1%;
+  margin-top: 1%;
+  font-weight: bold;
+  font-family: 'helvetica neue', helvetica;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 1px black;
+}
+
+body {
+	background: url('http://www.unsigneddesign.com/Essential%20Grunge/thumbs/grunge2.jpg');
+}
+</style>
+
+</head>
+<body>
+      <ul id="cssTextured">
+      	<li class="textured">Texturé</li>
+      	<li class="textured blue">Texturé et bleu</li>
+      	<li class="textured red">Texturé et rouge</li>
+      	<li class="textured green">Texturé et dégradé vert</li>
+      	<li class="textured yellow">Texturé et jaune dégradé vert</li>
+      	<li class="textured lsd">Texturé et LSD</li>
+      </ul>
+</body>
+</html>

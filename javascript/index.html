@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello</title>
+		<script src="Vehicule.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var myCar = new Vehicule("peugeot");
+			myCar.setOwner("bob");
+			alert(myCar.owner);
+			alert(Vehicule.owner); // undefined
+			myCar.starEngine();
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
