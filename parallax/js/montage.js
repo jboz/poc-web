@@ -26,7 +26,7 @@ function init(images) {
     $("#pictures").append(images[index].toDiv());
   });
   
-  $.stellar({
-		horizontalOffset: 40
-	});
+  $('#scene').stellar({
+    horizontalOffset: 40
+  });
 }

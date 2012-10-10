@@ -1,12 +1,13 @@
-body {
-  background: url(../img/montagne-lac-glace.jpg) no-repeat center;
-  width: 1422px;
-  height: 1144px;
+#scene {
+  /*background: url(http://4.bp.blogspot.com/_XU9x8G7khv0/S7z1H0OGShI/AAAAAAAAOIk/0vOyNHj-a9g/s1600/spring-wallpaper-1280x800-0912087.jpg) no-repeat;*/
+  background: url(http://localhost/poc-web/parallax/P4040055.JPG) no-repeat;
+  width: 3072px;
+  height: 2048px;
 }
 
-h1 {
+h1.anni {
   color: white;
-  font: 72px/72px helvetica, arial, sans-serif;
+  font: 72px/72px 'Henny Penny', cursive;
   padding: 40px 80px;
 }
 
@@ -22,13 +23,3 @@ h1 {
   -webkit-box-shadow: 1px 1px 12px #555;
   box-shadow: 1px 1px 12px #555;
 }  
-
-.monique1 {
-  background: url(../img/monique1.png) no-repeat center;
-}
-
-.monique2 {
-  background: url(../img/monique2.png) no-repeat center;
-  top: -97px;
-  left: 40px;
-}
